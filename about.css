@@ -1,0 +1,134 @@
+/* main{
+    background: url(back7.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+} */
+
+/* #image{
+    height:450px;
+} */
+
+.jumbotron{
+    font-family: 'Cabin Condensed', sans-serif;
+    background: rgba(241, 241, 241, 0.568);
+    letter-spacing: 0.04em;
+    padding-top:40px;
+    margin-top:30px;
+    border-radius:0px;
+}
+
+.lead{
+    font-size:24px;
+}
+
+.title{
+    font-size:29px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(0, 131, 126);
+ }
+
+a:hover{
+    text-decoration:none;
+    color: rgba(0, 82, 82, 0.993);
+ }
+
+.member{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:15px 0;
+    background: rgba(0, 140, 145, 0.452);
+    color:black;
+}
+
+.photo-member{
+    width:40%;
+}
+
+.text-about-member{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Kavivanar', cursive;
+    padding:0 15px;
+    width:55%;
+}
+
+#images-members-size{
+    margin-left:10px;
+    width:100%;
+    height:290px;
+    border-radius:3px;
+    margin-right:15px;
+}
+
+#images-members-size:hover{
+    /* transform: translateY(-5px);
+    transition: ease-out 0.15s; */
+    cursor: pointer;
+    box-shadow: 0 6px 30px 0 rgba(12, 12, 12, 0.322);
+}
+
+#images-members-size-1{
+    margin-right:10px;
+    width:100%;
+    height:290px;
+    border-radius:3px;
+   padding-right:10px;
+}
+
+#images-members-size-1:hover{
+    /* transform: translateY(-5px);
+    transition: ease-out 0.15s; */
+    cursor: pointer;
+    box-shadow: 0 6px 30px 0 rgba(12, 12, 12, 0.322);
+}
+
+h3{
+    font-weight:bold;
+}
+
+.member-about{
+    font-size:17px;
+}
+
+.my-4{
+    border: 0.5px solid grey;
+}
+
+h5{
+    color: rgb(17, 1, 88);
+    font-weight: bold;
+}
+
+@media screen and (max-width:1050px){
+    .member{
+        flex-direction: column;
+    }
+    .photo-member{
+        width:90%;
+        margin:10px auto;
+        order:2;
+    }
+    .text-about-member{
+        width:100%;
+    }
+    #images-members-size{
+        height:100%;
+        margin:0;
+    }
+
+    #images-members-size-1{
+        height:100%;
+    }
+
+    .text-about-member{
+        order:1;
+    }
+
+}

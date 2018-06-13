@@ -1,0 +1,633 @@
+body{
+    background: url(back6.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+.logo{
+    font-family:'Alfa Slab One', cursive;
+    color:   rgba(8, 247, 235, 0.863);
+    font-size: 33px;
+    width:250px;
+    height:85px;
+    letter-spacing: 0.05em;
+}
+
+.logo2{
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    color: rgba(236, 235, 235, 0.801);  
+}
+
+p{
+    margin:0;
+}
+
+.navbar-dark{
+    font-size:25px; 
+    background:#262626ad;
+    padding: 10px;
+    
+    /* font-family: 'Do Hyeon', sans-serif; */
+}
+
+.nav-item{
+    display:flex;
+    align-items:center;
+    margin:10px;
+    
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav >.nav-link {
+    /* color:  rgba(60, 255, 245, 0.781); */
+    color: rgba(255, 255, 255, 0.856);
+    border-bottom: 2px solid rgba(60, 255, 245, 0.781);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.navbar-dark .navbar-nav:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    /* color: rgba(60, 255, 245, 0.781); */
+    transform: translateY(-3px);
+    transition: ease-out 0.1s;
+    color: rgba(255, 255, 255, 0.938);
+}
+
+.dropdown-menu{
+    background:#474747;
+}
+
+.dropdown-item{
+    color: rgba(255, 255, 255, 0.733);
+    font-size:20px;
+    padding: .25rem 2.8rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background:rgba(36, 36, 36, 0.849);
+    color:rgba(60, 255, 245, 0.781);
+    transform: scale(1.03, 1.03);
+    border-radius:5px;
+    transition: ease-out 0.1s;
+}
+
+.media {
+    display:block;
+}
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+}
+
+.lang{
+    width:20%;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    width:100%;
+    padding-left:35px;
+    border-left:1.5px solid rgba(255, 255, 255, 0.349);
+}
+
+.change-lang{
+    padding: 0;
+    color: rgba(255, 255, 255, 0.733);
+    text-decoration: none; 
+}
+
+.change-lang:hover{
+    text-decoration: none;
+    color:rgba(60, 255, 245, 0.781);
+    transition: ease-out 0.3s;
+}
+
+.lang{
+    font-size: 20px;
+}
+
+.navbar{
+    padding: 10px 100px;
+    display:flex;
+    flex-direction:row;
+}
+
+.photos{
+    margin:0px 100px;
+    padding-top:10px;
+}
+
+.carousel-item{
+    width:100%;
+}
+
+footer{
+    width:100%;
+    height:100px;
+    background:#262626ad;
+    display: flex;
+    flex-direction:row;
+    
+    padding-left:100px;
+    padding-right:100px
+}
+
+.social{
+    display:flex;
+    flex-direction:row;
+}
+
+.subscribe{
+    display:flex;
+    flex-direction:row;
+    width:90%;
+    justify-content:flex-end;
+    margin-top:10px;
+}
+
+.inputs{
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    width:350px;
+    height:30px;
+    border-radius:3px;
+    border: 1px solid  #343a40;
+    outline: none;
+    padding-left:5px;
+    padding-bottom:5px;
+}
+
+.news{
+    /* background:rgba(2, 180, 171, 0.507); */
+    width:100%;
+    height:430px;
+    display:flex;
+    display:flex;
+    flex-direction:row;
+    padding-top:90px;
+    justify-content: center;
+}
+
+.header-new{
+    color:rgba(255, 255, 255, 0.856);
+    font-size:25px;
+    margin-bottom:15px;
+    
+}
+
+.href-new{
+    color: rgba(255, 255, 255, 0.432);
+    font-size:23px;
+    padding-top:20px;
+}
+
+.date-new{
+    font-size:25px;
+    color: rgba(60, 255, 245, 0.438);
+    letter-spacing: 0.2em;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin-top:20px;
+}
+
+.href-new:hover{
+    color:white;
+    text-decoration:none;
+}
+
+.new1{
+    width:270px;
+    height:220px;
+    background: rgba(0, 0, 0, 0.808);
+    padding:10px;
+    border:2px solid black;
+}
+
+.new2{
+    width:270px;
+    height:220px;
+    background: rgba(0, 0, 0, 0.808);
+    margin-left:80px;
+    border:2px solid black;
+    padding:10px;
+}
+
+.new3{
+    width:270px;
+    height:220px;
+    background: rgba(0, 0, 0, 0.808);
+    margin-left:80px;
+    border:2px solid black;
+    padding:10px;
+}
+
+.btn{
+    width:100px;
+    height:30px;
+    margin-left:20px;
+    padding:0px;
+}
+
+.button-coords{
+    margin-top:37px;
+}
+
+.btn-outline-dark {
+    background-color: rgba(214, 214, 214, 0.918);
+}
+
+.btn-outline-dark:hover {
+    background-color: rgba(1, 214, 204, 0.74);
+    border-color: #343a40;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.fa:hover{
+    text-decoration: none;
+    color:rgba(0, 190, 204, 0.726);
+}
+
+.hr1{
+    width: 400px;
+    border:1px solid rgba(0, 0, 0, 0.788);
+    margin-top:60px;
+}
+
+.hr2{
+    /* width:150px; */
+    border:0.5px solid rgba(0, 0, 0, 0.425);
+    justify-content:flex-start;
+}
+
+.h2-news{
+    color: rgba(0, 0, 0, 0.856);
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.main-html{
+    width:100%;
+    height:650px;
+}
+
+.lines{
+    display:flex;
+    flex-direction: row;
+}
+
+.concerts{
+    width: 75%;
+    height:320px;
+    background: rgba(230, 229, 229, 0.459);
+    margin:0px 100px;
+    padding:20px;
+}
+
+.date{
+    color: black;
+    font-size:30px;
+    letter-spacing:0.2em;
+    width:40%;
+}
+
+.hr-concerts{
+    border: 0.5px solid black;
+}
+
+.place{
+     width:45%;
+     color:black;
+     font-size:23px;
+     margin-top:7px;
+}
+
+.btn-buy{
+    margin-top:7px;
+    width:15%;
+}
+
+.h2-concerts{
+    width:75%;
+    margin:100px 100px;
+    padding-top:20px;
+    font-size: 40px;
+    margin-bottom:20px;
+}
+
+.btn-outline-dark-2{
+    background: rgba(0, 0, 0, 0.836);
+    color:rgba(255, 255, 255, 0.822);
+}
+
+.btn-outline-dark-2:hover{
+    background: rgba(3, 175, 167, 0.897);
+    
+}
+
+.container{
+    padding:20px;
+    width:1200px;
+    /* margin:10px 40px; */
+}
+
+.gallery-container{
+    background: rgba(26, 26, 26, 0.116);
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.col-md-4{
+    padding:20px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+.card-img-top:hover{
+    transform: scale(1.02, 1.02);
+    transition: ease-out 0.15s;
+    box-shadow: 0 6px 30px 0 rgba(12, 12, 12, 0.322);
+}
+
+.card{
+    border:none;
+}
+
+.image-7{
+    height:224.61px;
+}
+
+.main-music{
+    display:flex;
+    flex-direction:column;
+    height: 710px;
+}
+
+.about{
+    background: rgba(12, 12, 12, 0.836);
+    font-size: 30px;
+    display:flex;
+    flex-direction:row;
+}
+
+#image{
+    height:400px;
+}
+
+#video{
+    width:1200px;
+    height:700px;
+}
+
+.video{
+    width:100%;
+    height:100%;
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1200px){
+    .navbar{
+        padding-left:30px;
+        padding-right:13px;
+    }
+    .photos {
+        margin:5px 40px;
+    }
+    footer {
+        padding-left:40px;
+        padding-right:40px;
+    }
+    .image-7{
+        height:184.58px;
+    }
+}
+
+
+
+@media screen and (max-width:990px){
+    .new2{
+        margin-left: 20px;
+    }
+    .new3{
+        margin-left: 20px;
+    }
+    .image-7{
+        height:131.2px;
+    }
+}
+
+
+@media screen and (max-width:860px){
+    .news{
+        flex-direction:column;
+        height: 1200px;
+        align-items: center;
+    }
+    .new1{
+        width:480px;
+        height:450px;
+        margin-bottom:20px;
+    }
+    .new2{
+        width:480px;
+        height:450px;
+        margin:20px 0;
+    }
+    .new3{
+        width:480px;
+        height:450px;
+        margin:20px 0;
+    }
+    .date-new{
+        margin-top:100px;
+        font-size: 30px;
+        letter-spacing:0.3em;
+    }
+    .href-new{
+        font-size: 33px;
+    }
+    .header-new{
+        font-size: 35px;
+    }
+    .photos {
+        margin: 0px;
+    }
+    footer{
+        flex-direction:column;
+        height: 200px;
+        align-items: center;
+    }
+    .subscribe{
+        width:100%;
+        padding-right:0px;
+        padding-bottom:10px;
+    }
+    .fa {
+        font-size: 40px;
+        width: 85px;
+    }
+    .concerts{
+        width: 90%;
+        margin:0 auto;
+        padding:20px;
+    }
+    .btn-buy{
+        width:25%;
+    }
+}
+
+@media screen and (max-width:760px){
+    .image-7{
+        height:326.11px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .subscribe{
+        flex-direction:column;
+    }
+    .new1{
+        width:380px;
+        height:420px;
+    }
+    .new2{
+        width:380px;
+        height:420px;
+    }
+    .new3{
+        width:380px;
+        height:420px;
+    }
+    .lang{
+        margin-left:20px;
+    }
+    .date{
+        font-size:20px;
+    }
+    .place{
+        font-size:18px;
+    }
+    .card-img-top {
+        width:100%;
+    }
+    .card{
+        width:100%;
+    }
+    .container{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:420px){
+    .new1{
+        width:250px;
+        height:240px;
+    }
+    .new2{
+        width:250px;
+        height:240px;
+        margin:20px 0;
+    }
+    .new3{
+        width:250px;
+        height:240px;
+        margin:20px 0;
+    }
+    .fa {
+        font-size: 40px;
+        width: 60px;
+    }
+    .header-new{
+        font-size:22px;
+    }
+    .href-new{
+        font-size: 25px;
+    }
+    .date-new{
+        margin-top:40px;
+        font-size: 20px;
+        
+    }
+    .news{
+        padding-top: 0px;
+        height:900px;
+    }
+    .main{
+        height:100%;
+    }
+    input{
+        width:250px;;
+    }
+    .hr1{
+        width:200px;
+    }
+    .lines{
+        flex-direction:column;
+    }
+    .date{
+        font-size:30px;
+        width:50%;
+    }
+    .place{
+        font-size:27px;
+        width:100%;
+    }
+    .btn-outline-dark-2 {
+        width:50%;
+    }
+    .btn {
+        margin-left:0px;
+        height:40px;
+    }
+    .concerts{
+        height:700px;
+    }
+    .main-html{
+        height: 900px;
+    }
+    .h2-concerts{
+        margin: 30px 30px;
+        font-size:35px;
+    }
+    .image-7{
+        height:216.45px;
+    }
+    footer{
+        height:300px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .image-7{
+        height:153.45px;
+    }
+}
